@@ -8,9 +8,10 @@ version: 2
 # Set the version of Python and other tools you might need
 build:
   image: testing
-    python:
-      version: "3.11"
-      install:
-        - method: pip
-          path: .
-        - requirements: docs/requirements.txt
+  
+python:
+  version: "3.11"
+  install:
+    - method: pip
+      path: .
+    - requirements: docs/requirements.txt
