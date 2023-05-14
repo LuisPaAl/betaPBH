@@ -10,7 +10,7 @@ build:
   image: testing
   
 python:
-  version: "3.11"
+  version: "3.9"
   install:
     - method: pip
       path: .
