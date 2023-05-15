@@ -8,7 +8,7 @@ PACKAGE_NAME = 'betaPBH'
 
 URL = 'https://github.com/TadeoDGAguilar'
 
-LICENSE = 'GNU' 
+LICENSE = 'GPL-2.0' 
 
 DESCRIPTION = 'Library to compute abundances to PBHs in different scenarios on Early Universe' #Descripción corta
 
