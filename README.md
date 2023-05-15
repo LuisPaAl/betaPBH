@@ -12,11 +12,11 @@ The betaPBH library requires Python 3.6 or later to be installed on your system.
 
 It's necesary install the follow libraries:
 
-  -[Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
+  1. [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
-  -[NumPy](https://numpy.org/install/)
+  2. [NumPy](https://numpy.org/install/)
 
-  -[SciPy](https://scipy.org/install/)
+  3. [SciPy](https://scipy.org/install/)
 
 ```{note}
 Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python 3x. When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
