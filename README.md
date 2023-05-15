@@ -19,5 +19,5 @@ Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python
 
 ## Regards
 
-![tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
+[tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
 
