@@ -23,9 +23,9 @@ It's necesary install the follow libraries:
 
   3. [SciPy](https://scipy.org/install/)
 
-```{note}
-Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python 3x. When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
-```
+
+**Note:** `betaPBH` runs both in `Python` 2.x and 3.x. However, we highly recommend Python 3.x When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
+
 
 # Example 
 ## Abundances of PBHs with Number of e-folds
