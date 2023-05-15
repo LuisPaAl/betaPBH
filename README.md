@@ -8,6 +8,8 @@ The betaPBH library requires Python 3.6 or later to be installed on your system.
 
 [Python 3](https://www.python.org/downloads/)
 
+2. **pip package manager:** The pip package manager is used to install betaPBH and its dependencies. It should be included with your Python installation by default.
+
 [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
 [NumPy](https://numpy.org/install/)
