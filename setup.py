@@ -3,20 +3,20 @@ from setuptools import find_packages, setup
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1' #Muy importante, deberéis ir cambiando la versión de vuestra librería según incluyáis nuevas funcionalidades
-PACKAGE_NAME = 'betaPBH' #Debe coincidir con el nombre de la carpeta 
+VERSION = '0.1' 
+PACKAGE_NAME = 'betaPBH' 
 
 URL = 'https://github.com/TadeoDGAguilar'
 
-LICENSE = 'MIT' #Tipo de licencia
+LICENSE = 'GNU' 
 
 DESCRIPTION = 'Library to compute abundances to PBHs in different scenarios on Early Universe' #Descripción corta
 
-LONG_DESCRIPTION = (HERE / "README.md").read_text(encoding='utf-8') #Referencia al documento README con una descripción más elaborada
+LONG_DESCRIPTION = (HERE / "README.md").read_text(encoding='utf-8') 
 
 LONG_DESC_TYPE = "text/markdown"
 
-#Paquetes necesarios para que funcione la libreía. Se instalarán a la vez si no lo tuvieras ya instalado
+
 INSTALL_REQUIRES = [
       'matplotlib',
       'numpy',
