@@ -27,7 +27,8 @@ It's necesary install the follow libraries:
 Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python 3x. When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
 ```
 
-# Example
+# Example 
+## Abundances of PBHs with Number of e-folds
 ```{code}
   from betaPBH import functions, constants, constraints, BfN, BfS
   import matplotlib.pyplot as plt
@@ -49,6 +50,7 @@ Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python
   plt.show()
 ```
 
+![Descripción de la imagen](https://betapbh.readthedocs.io/en/latest/_images/BfS.png) "Leyenda de la imagen")
 
 # How to cite us
 
