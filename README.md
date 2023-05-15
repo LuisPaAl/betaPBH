@@ -1,8 +1,11 @@
 # betaPBHs
 ## Warning this project is a beta version
 
-### Author
-[tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
+### Authors
+
+[tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/) & [Luis E. Padilla](https://www.linkedin.com/in/luis-enrique-padilla-albores-052087199/)
+
+
 
 ## Prerequisites
 
