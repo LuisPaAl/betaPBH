@@ -1,8 +1,8 @@
 # betaPBHs
 ## Warning this project is a beta version
 
-<Author>
-  [tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
+### Author
+[tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
 
 ## Prerequisites
 
@@ -30,5 +30,5 @@ If you use {math}`\beta`-PBH, please cite its pre-print, arXiv:.
 
 ## Regards
 
-
+Thanks for use betaPBH
 
