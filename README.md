@@ -27,6 +27,29 @@ It's necesary install the follow libraries:
 Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python 3x. When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
 ```
 
+# Example
+```{code}
+  from betaPBH import functions, constants, constraints, BfN, BfS
+  import matplotlib.pyplot as plt
+  import numpy as np
+```
+```{code}
+  functions.put_M_array(0.0123)
+  M_tot = np.array(constraints.M_tot)
+```
+```{code}
+  plt.loglog(M_tot,BfN.get_betas_reh_tot(10,0,1),label = r"$N_{\rm reh}=10$")
+  plt.loglog(M_tot,BfN.get_betas_reh_tot(20,0,1),label = r"$N_{\rm reh}=20$")
+  plt.loglog(M_tot,BfN.get_betas_reh_tot(30,0,1),label = r"$N_{\rm reh}=30$")
+  plt.ylim([1e-30,1])
+  plt.xlim([1,1e20])
+  plt.xlabel(r"$M_{\rm PBH}~[\rm{g}]$")
+  plt.ylabel(r"$\beta$")
+  plt.legend(ncol=2,bbox_to_anchor=(0.85, 1.5))
+  plt.show()
+```
+
+
 # How to cite us
 
 If you use $\beta$-PBH, please cite its pre-print, arXiv:.
