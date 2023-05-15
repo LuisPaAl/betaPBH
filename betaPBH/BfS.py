@@ -13,14 +13,11 @@ from betaPBH import constraints
 import numpy as np
 
 # Set the values of the variables
-M_tot = np.asarray(constraints.M_tot)# define M_tot
 rho_end_inf =  constants.rho_end_inf #define rho_end_inf
 H_end = constants.H_end #define H_end
 gam_rad = constants.gam_rad
 rho_end = constants.rho_end # define rho_end
 M_pl_g = constants.M_pl_g # define M_pl_g
-Omegas_full = np.asarray(constraints.data_Omegas_full)# define Omegas_full
-betas_full = np.asarray(constraints.betas_full)
 ln_den_end = np.log(constants.rho_end)
 t_pl_s = constants.t_pl_s # s
 s_to_evm1 = constants.s_to_evm1
@@ -49,7 +46,10 @@ def get_betas_stiff_tot(N_stiff, omega, gam_stiff):
         - ValueError: If the end of the stiff era happens after BBN.
 
     """
-    betas_stiff = []
+    M_tot = np.array(constraints.M_tot)
+    Omegas_full = np.array(constraints.data_Omegas_full)# define Omegas_full
+    betas_full = np.array(constraints.betas_full)
+    
     rho_end_stiff = rho_end_inf*np.exp(-6*N_stiff)
     if rho_end_stiff <= rho_end:
         raise ValueError("The end of the stiff era happens after BBN")
@@ -57,6 +57,8 @@ def get_betas_stiff_tot(N_stiff, omega, gam_stiff):
     k_end_over_k_stiff = (M_tot/(7.1*10**-2*gam_stiff*(1.8*10**15/H_end)))**(2/3)
     rho_form_stiff = rho_end_inf/(k_end_over_k_stiff)**3
     ln_rho_form_stiff = np.log(rho_form_stiff)
+    
+    betas_stiff = []
     
     for i in range(len(M_tot)):
         end_value = Omegas_full[i]
