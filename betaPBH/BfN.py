@@ -13,14 +13,11 @@ from betaPBH import constraints
 import numpy as np
 
 # Set the values of the variables
-M_tot = np.asarray(constraints.M_tot)# define M_tot
 rho_end_inf =  constants.rho_end_inf #define rho_end_inf
 H_end = constants.H_end #define H_end
 gam_rad = constants.gam_rad
 rho_end = constants.rho_end # define rho_end
 M_pl_g = constants.M_pl_g # define M_pl_g
-Omegas_full = np.asarray(constraints.data_Omegas_full)# define Omegas_full
-betas_full = np.asarray(constraints.betas_full)# define betas_full
 ln_den_end = np.log(constants.rho_end)
 t_pl_s = constants.t_pl_s # s
 s_to_evm1 = constants.s_to_evm1
@@ -40,14 +37,16 @@ def get_betas_reh_tot(N_re, omega, gam_reh):
         - N_re (float): The number of efolds during reheating.
         - omega (float): The equation of state parameter during reheating.
         - gam_reh (float): The ratio of the radiation energy density to the inflaton energy density at the end of reheating..
-
     Returns:
         - betas_reh_tot (list): A list of values of betas_reh_tot.
-
     Raises:
         - ValueError: If the end of reheating happens after BBN.
-
     """
+    M_tot = np.array(constraints.M_tot)# define M_tot
+    betas_full = np.array(constraints.betas_full)# define betas_full
+    Omegas_full = np.array(constraints.data_Omegas_full)# define Omegas_full
+
+
     # Calculate k_end_over_k_reh and rho_form_reh
     k_end_over_k_reh = (M_tot/(7.1*10**-2*gam_reh*(1.8*10**15/H_end)))**(1/3)
     rho_form_reh = rho_end_inf/(k_end_over_k_reh)**6
