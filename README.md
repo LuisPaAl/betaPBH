@@ -50,7 +50,7 @@ Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python
   plt.show()
 ```
 
-![Descripción de la imagen](https://betapbh.readthedocs.io/en/latest/_images/BfS.png) "Leyenda de la imagen")
+![Descripción de la imagen](https://betapbh.readthedocs.io/en/latest/_images/BfS.png)
 
 # How to cite us
 
