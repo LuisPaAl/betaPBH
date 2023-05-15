@@ -29,7 +29,7 @@ Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python
 
 # How to cite us
 
-If you use $$\beta$$-PBH, please cite its pre-print, arXiv:.
+If you use $\beta$-PBH, please cite its pre-print, arXiv:.
 
 ## Regards
 
