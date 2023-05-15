@@ -1,6 +1,8 @@
 # betaPBHs
 ## Warning this project is a beta version
 
+# Mi texto con fondo y marco arriba
+{: style="background-color: #F8D7DA; border-top: 3px solid #721C24;"}
 
 ## Prerequisites
 
@@ -21,6 +23,10 @@ It's necesary install the follow libraries:
 ```{note}
 Note: betaPBH runs both in Python 2x and 3x. However, we highly recommend Python 3x. When you install betaPBH in your system, the module `setup.py` contains instructions to install the basic libraries to run `betaPBH`.
 ```
+
+# How to cite us
+
+If you use {math}`\beta`-PBH, please cite its pre-print, arXiv:.
 
 ## Regards
 
