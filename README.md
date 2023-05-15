@@ -1,8 +1,8 @@
 # betaPBHs
 ## Warning this project is a beta version
 
-# Mi texto con fondo y marco arriba
-{: style="background-color: #F8D7DA; border-top: 3px solid #721C24;"}
+<Author>
+  [tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
 
 ## Prerequisites
 
@@ -30,5 +30,5 @@ If you use {math}`\beta`-PBH, please cite its pre-print, arXiv:.
 
 ## Regards
 
-[tadeodaguilar](https://www.linkedin.com/in/tadeodaguilar/)
+
 
