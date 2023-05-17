@@ -19,18 +19,18 @@ functions.put_M_array(0.0123)
 M_tot = np.array(constraints.M_tot)
 omega=1/3
 
-funtions.Betas_DM(M_tot)
-funtions.Betas_BBN(M_tot,omega)
-funtions.Betas_CMB_AN(M_tot,omega)
-funtions.Betas_GRB(M_tot,omega)
-funtions.Betas_Reio(M_tot,omega)
-funtions.Betas_SD(M_tot,omega)
-funtions.Betas_LSP(M_tot)
+functions.Betas_DM(M_tot)
+functions.Betas_BBN(M_tot,omega)
+functions.Betas_CMB_AN(M_tot,omega)
+functions.Betas_GRB(M_tot,omega)
+functions.Betas_Reio(M_tot,omega)
+functions.Betas_SD(M_tot,omega)
+functions.Betas_LSP(M_tot)
 ```
 
 ```{code-block} python
 :lineno-start: 15
-funtions.get_Betas_full(M_tot)
+functions.get_Betas_full(M_tot)
 ```
 
 ```{code-block} python
