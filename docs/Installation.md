@@ -1,6 +1,6 @@
 # Installation
 
-You can install betaPBH with pip:
+You can install PBH-{math}`\beta` with pip:
 
 ```{code-block}
 ---
@@ -15,5 +15,5 @@ Also you can download from github:
 ---
 emphasize-lines: 1
 ---
-$ git clone https://github.com/TadeoDGAguilar/betaPBH.git
+$ git clone https://github.com/TadeoDGAguilar/PBHBeta.git
 ```
