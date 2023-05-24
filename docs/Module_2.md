@@ -8,13 +8,13 @@
   - Description
 * - `t_pl_s`
   - `float`
-  - Time in seconds
+  - Planck time given in seconds
 * - `s_to_evm1`
   - `float`
   - Conversion factor from seconds to GeV^-1
 * - `t_pl`
   - `float`
-  - Time in GeV^-1
+  - Planck time given in GeV^-1
 * - `M_pl`
   - `float`
   - Planck mass in GeV
@@ -29,7 +29,7 @@
   - Radiation constant gamma
 * - `H_end`
   - `float`
-  - Inflation energy in GeV
+  - Hubble parameter during inflation given in GeV
 * - `rho_end`
   - `float`
   - Energy density at the end of inflation in GeV^4
